@@ -459,7 +459,7 @@ function getSankeyScale(graph) {
     })
 }
 
-d3.json("/assets/darkmoneyvis/data/sankey-darkmoney.json", function(graphdata) {
+d3.json("/data/sankey-darkmoney.json", function(graphdata) {
 
 	graph = graphdata;
 	years = graph.years;
